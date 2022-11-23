@@ -1,0 +1,28 @@
+{
+  "name": "ontology-ui-overlay-data",
+  "version": "0.0.1",
+  "description": "Hints for GO-universe ontology edges, glyphs, and labels; replacement for amigo2-instance-data for some uses.",
+  "main": "lib/ontology-ui-overlay-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+      "node": ">= 12.22.9",
+      "npm": ">= 8.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geneontology/ontology-ui-overlay-data.git"
+  },
+  "keywords": [
+    "ontology",
+    "gene ontology",
+    "go"
+  ],
+  "author": "SJC <sjcarbon@lbl.gov> (http://berkeleybop.org/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/geneontology/ontology-ui-overlay-data/issues"
+  },
+  "homepage": "https://github.com/geneontology/ontology-ui-overlay-data#readme"
+}
