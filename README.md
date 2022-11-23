@@ -20,6 +20,12 @@ npm login
 npm publish
 ```
 
+The "make modifications" here is currently what we'd like to automate in the future, preferably from upstream ontology data. The most direct thing we have at the moment is functionally:
+
+`cp ../amigo/javascript/npm/amigo2-instance-data/generation-templates/context.js.tmpl ./lib/ontology-ui-overlay-data.js`
+
+That copied file is made by injecting the output for `yaml2json` from the `../amigo/conf/context.yaml` file (see the topmatter for the latter file).
+
 ## Troubleshooting
 
 TBD: how to sync or not sync from AmiGO `amigo2-instance-data`. Let's just see if this works first...
