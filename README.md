@@ -17,6 +17,7 @@ docker run -v `pwd`:'/work' -w /work -i -t ubuntu:jammy /bin/bash
 apt-get update && apt-get -u install npm nodejs
 npm login
 [make modifications]
+[bump package.json version]
 npm publish
 ```
 
