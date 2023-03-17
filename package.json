@@ -1,6 +1,6 @@
 {
   "name": "ontology-ui-overlay-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hints for GO-universe ontology edges, glyphs, and labels; replacement for amigo2-instance-data for some uses.",
   "main": "lib/ontology-ui-overlay-data.js",
   "scripts": {
